@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Git files
+.git/
+
+# Local datasets
+data/
+
+# Development artifacts
+.pytest_cache/
+.ipynb_checkpoints/
+notebooks/
+
+# OS files
+.DS_Store

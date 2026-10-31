@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+
+# VS Code settings
+.vscode/
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local datasets
+data/raw/
+data/processed/
+
+# OS files
+.DS_Store
