@@ -9,6 +9,8 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 
 GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
 KAGGLE_API_TOKEN = os.getenv("KAGGLE_API_TOKEN")
 KAGGLE_USERNAME = os.getenv("KAGGLE_USERNAME")
 KAGGLE_DATASET = "ashoknayar/loan-approval-records-10000"
