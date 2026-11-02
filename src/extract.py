@@ -1,8 +1,6 @@
 import kaggle
-from pathlib import Path
-from config import RAW_DATA_DIR, KAGGLE_DATASET
+from .config import RAW_DATA_DIR, KAGGLE_DATASET
 
-download_path = RAW_DATA_DIR
 
 def extract_dataset():
     dataset = KAGGLE_DATASET
@@ -21,7 +19,4 @@ def extract_dataset():
 
     print(f"Dataset downloaded to {output_dir}")
 
-
-
-extract_dataset()
 
